@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metrics scope="redo_A1" type="Project" date="2019-03-18" xmlns="http://metrics.sourceforge.net/2003/Metrics-First-Flat">
+   <Cycle name="redo_A1 et al" nodes="3" diameter="2">
+      <Package>redo_A1</Package>
+      <Package>redo_A1_2</Package>
+      <Package>redo_A1_3</Package>
+   </Cycle>
+   <Metric id = "VG" description ="McCabe Cyclomatic Complexity" max ="10" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1" stddev = "0" max = "1">
+         <Value name="operation" source ="expert_factor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="manager_expert.java" package ="redo_A1_2" value ="1"/>
+         <Value name="setStrategy" source ="manager_expert.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="manager_technical.java" package ="redo_A1_2" value ="1"/>
+         <Value name="setStrategy" source ="manager_technical.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="tech_factor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="total_efactor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="total_tfactor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="man_hours.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="manager_man.java" package ="redo_A1_3" value ="1"/>
+         <Value name="setStrategy" source ="manager_man.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="manager_report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="setStrategy" source ="manager_report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="total_mhours.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="total_report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="main" source ="Main.java" package ="redo_A1" value ="1"/>
+         <Value name="operation" source ="actor_usecase.java" package ="redo_A1" value ="1"/>
+         <Value name="operation" source ="manager_weight.java" package ="redo_A1" value ="1"/>
+         <Value name="setStrategy" source ="manager_weight.java" package ="redo_A1" value ="1"/>
+         <Value name="operation" source ="project_size.java" package ="redo_A1" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "PAR" description ="Number of Parameters" max ="5" hint ="Move invoked method or pass an object">
+      <Values per = "method" avg = "1.143" stddev = "0.35" max = "2">
+         <Value name="operation" source ="actor_usecase.java" package ="redo_A1" value ="2"/>
+         <Value name="operation" source ="manager_weight.java" package ="redo_A1" value ="2"/>
+         <Value name="operation" source ="project_size.java" package ="redo_A1" value ="2"/>
+         <Value name="operation" source ="expert_factor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="manager_expert.java" package ="redo_A1_2" value ="1"/>
+         <Value name="setStrategy" source ="manager_expert.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="manager_technical.java" package ="redo_A1_2" value ="1"/>
+         <Value name="setStrategy" source ="manager_technical.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="tech_factor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="total_efactor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="total_tfactor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="man_hours.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="manager_man.java" package ="redo_A1_3" value ="1"/>
+         <Value name="setStrategy" source ="manager_man.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="manager_report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="setStrategy" source ="manager_report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="total_mhours.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="total_report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="main" source ="Main.java" package ="redo_A1" value ="1"/>
+         <Value name="setStrategy" source ="manager_weight.java" package ="redo_A1" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "NBD" description ="Nested Block Depth" max ="5" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "0.762" stddev = "0.426" max = "1">
+         <Value name="operation" source ="manager_expert.java" package ="redo_A1_2" value ="1"/>
+         <Value name="setStrategy" source ="manager_expert.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="manager_technical.java" package ="redo_A1_2" value ="1"/>
+         <Value name="setStrategy" source ="manager_technical.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="total_efactor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="total_tfactor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="manager_man.java" package ="redo_A1_3" value ="1"/>
+         <Value name="setStrategy" source ="manager_man.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="manager_report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="setStrategy" source ="manager_report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="total_mhours.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="total_report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="main" source ="Main.java" package ="redo_A1" value ="1"/>
+         <Value name="operation" source ="manager_weight.java" package ="redo_A1" value ="1"/>
+         <Value name="setStrategy" source ="manager_weight.java" package ="redo_A1" value ="1"/>
+         <Value name="operation" source ="project_size.java" package ="redo_A1" value ="1"/>
+         <Value name="operation" source ="expert_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="operation" source ="tech_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="operation" source ="man_hours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="operation" source ="report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="operation" source ="actor_usecase.java" package ="redo_A1" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CA" description ="Afferent Coupling">
+      <Values per = "packageFragment" avg = "1" stddev = "0" max = "1">
+         <Value name="redo_A1" package ="redo_A1" value ="1"/>
+         <Value name="redo_A1_2" package ="redo_A1_2" value ="1"/>
+         <Value name="redo_A1_3" package ="redo_A1_3" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "CE" description ="Efferent Coupling">
+      <Values per = "packageFragment" avg = "1.667" stddev = "0.471" max = "2">
+         <Value name="redo_A1_2" package ="redo_A1_2" value ="2"/>
+         <Value name="redo_A1_3" package ="redo_A1_3" value ="2"/>
+         <Value name="redo_A1" package ="redo_A1" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMI" description ="Instability">
+      <Values per = "packageFragment" avg = "0.611" stddev = "0.079" max = "0.667">
+         <Value name="redo_A1_2" package ="redo_A1_2" value ="0.667"/>
+         <Value name="redo_A1_3" package ="redo_A1_3" value ="0.667"/>
+         <Value name="redo_A1" package ="redo_A1" value ="0.5"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMA" description ="Abstractness">
+      <Values per = "packageFragment" avg = "0.306" stddev = "0.039" max = "0.333">
+         <Value name="redo_A1_2" package ="redo_A1_2" value ="0.333"/>
+         <Value name="redo_A1_3" package ="redo_A1_3" value ="0.333"/>
+         <Value name="redo_A1" package ="redo_A1" value ="0.25"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMD" description ="Normalized Distance">
+      <Values per = "packageFragment" avg = "0.083" stddev = "0.118" max = "0.25">
+         <Value name="redo_A1" package ="redo_A1" value ="0.25"/>
+         <Value name="redo_A1_2" package ="redo_A1_2" value ="0"/>
+         <Value name="redo_A1_3" package ="redo_A1_3" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DIT" description ="Depth of Inheritance Tree">
+      <Values per = "type" avg = "1" stddev = "0.791" max = "2">
+         <Value name="manager_expert" source ="manager_expert.java" package ="redo_A1_2" value ="2"/>
+         <Value name="manager_technical" source ="manager_technical.java" package ="redo_A1_2" value ="2"/>
+         <Value name="manager_man" source ="manager_man.java" package ="redo_A1_3" value ="2"/>
+         <Value name="manager_report" source ="manager_report.java" package ="redo_A1_3" value ="2"/>
+         <Value name="manager_weight" source ="manager_weight.java" package ="redo_A1" value ="2"/>
+         <Value name="project_complexity" source ="project_complexity.java" package ="redo_A1_2" value ="1"/>
+         <Value name="total_efactor" source ="total_efactor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="total_tfactor" source ="total_tfactor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="total_mhours" source ="total_mhours.java" package ="redo_A1_3" value ="1"/>
+         <Value name="total_report" source ="total_report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="Main" source ="Main.java" package ="redo_A1" value ="1"/>
+         <Value name="project_size" source ="project_size.java" package ="redo_A1" value ="1"/>
+         <Value name="expert_factor" source ="expert_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="tech_factor" source ="tech_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="man_hours" source ="man_hours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="report" source ="report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="actor_usecase" source ="actor_usecase.java" package ="redo_A1" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "WMC" description ="Weighted methods per Class">
+      <Values per = "type" total = "21" avg = "1.312" stddev = "0.464" max = "2">
+         <Value name="manager_expert" source ="manager_expert.java" package ="redo_A1_2" value ="2"/>
+         <Value name="manager_technical" source ="manager_technical.java" package ="redo_A1_2" value ="2"/>
+         <Value name="manager_man" source ="manager_man.java" package ="redo_A1_3" value ="2"/>
+         <Value name="manager_report" source ="manager_report.java" package ="redo_A1_3" value ="2"/>
+         <Value name="manager_weight" source ="manager_weight.java" package ="redo_A1" value ="2"/>
+         <Value name="expert_factor" source ="expert_factor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="tech_factor" source ="tech_factor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="total_efactor" source ="total_efactor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="total_tfactor" source ="total_tfactor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="man_hours" source ="man_hours.java" package ="redo_A1_3" value ="1"/>
+         <Value name="report" source ="report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="total_mhours" source ="total_mhours.java" package ="redo_A1_3" value ="1"/>
+         <Value name="total_report" source ="total_report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="Main" source ="Main.java" package ="redo_A1" value ="1"/>
+         <Value name="actor_usecase" source ="actor_usecase.java" package ="redo_A1" value ="1"/>
+         <Value name="project_size" source ="project_size.java" package ="redo_A1" value ="1"/>
+         <Value name="project_complexity" source ="project_complexity.java" package ="redo_A1_2" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSC" description ="Number of Children">
+      <Values per = "type" total = "5" avg = "0.312" stddev = "0.682" max = "2">
+         <Value name="Main" source ="Main.java" package ="redo_A1" value ="2"/>
+         <Value name="actor_usecase" source ="actor_usecase.java" package ="redo_A1" value ="2"/>
+         <Value name="tech_factor" source ="tech_factor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="expert_factor" source ="expert_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="manager_expert" source ="manager_expert.java" package ="redo_A1_2" value ="0"/>
+         <Value name="manager_technical" source ="manager_technical.java" package ="redo_A1_2" value ="0"/>
+         <Value name="project_complexity" source ="project_complexity.java" package ="redo_A1_2" value ="0"/>
+         <Value name="total_efactor" source ="total_efactor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="total_tfactor" source ="total_tfactor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="man_hours" source ="man_hours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="manager_man" source ="manager_man.java" package ="redo_A1_3" value ="0"/>
+         <Value name="manager_report" source ="manager_report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="report" source ="report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="total_mhours" source ="total_mhours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="total_report" source ="total_report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="manager_weight" source ="manager_weight.java" package ="redo_A1" value ="0"/>
+         <Value name="project_size" source ="project_size.java" package ="redo_A1" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NORM" description ="Number of Overridden Methods">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="expert_factor" source ="expert_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="manager_expert" source ="manager_expert.java" package ="redo_A1_2" value ="0"/>
+         <Value name="manager_technical" source ="manager_technical.java" package ="redo_A1_2" value ="0"/>
+         <Value name="project_complexity" source ="project_complexity.java" package ="redo_A1_2" value ="0"/>
+         <Value name="tech_factor" source ="tech_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="total_efactor" source ="total_efactor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="total_tfactor" source ="total_tfactor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="man_hours" source ="man_hours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="manager_man" source ="manager_man.java" package ="redo_A1_3" value ="0"/>
+         <Value name="manager_report" source ="manager_report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="report" source ="report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="total_mhours" source ="total_mhours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="total_report" source ="total_report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="Main" source ="Main.java" package ="redo_A1" value ="0"/>
+         <Value name="actor_usecase" source ="actor_usecase.java" package ="redo_A1" value ="0"/>
+         <Value name="manager_weight" source ="manager_weight.java" package ="redo_A1" value ="0"/>
+         <Value name="project_size" source ="project_size.java" package ="redo_A1" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "LCOM" description ="Lack of Cohesion of Methods">
+      <Values per = "type" avg = "0" stddev = "0" max = "0">
+         <Value name="expert_factor" source ="expert_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="manager_expert" source ="manager_expert.java" package ="redo_A1_2" value ="0"/>
+         <Value name="manager_technical" source ="manager_technical.java" package ="redo_A1_2" value ="0"/>
+         <Value name="project_complexity" source ="project_complexity.java" package ="redo_A1_2" value ="0"/>
+         <Value name="tech_factor" source ="tech_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="total_efactor" source ="total_efactor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="total_tfactor" source ="total_tfactor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="man_hours" source ="man_hours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="manager_man" source ="manager_man.java" package ="redo_A1_3" value ="0"/>
+         <Value name="manager_report" source ="manager_report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="report" source ="report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="total_mhours" source ="total_mhours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="total_report" source ="total_report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="Main" source ="Main.java" package ="redo_A1" value ="0"/>
+         <Value name="actor_usecase" source ="actor_usecase.java" package ="redo_A1" value ="0"/>
+         <Value name="manager_weight" source ="manager_weight.java" package ="redo_A1" value ="0"/>
+         <Value name="project_size" source ="project_size.java" package ="redo_A1" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOF" description ="Number of Attributes">
+      <Values per = "type" total = "5" avg = "0.312" stddev = "0.464" max = "1">
+         <Value name="manager_expert" source ="manager_expert.java" package ="redo_A1_2" value ="1"/>
+         <Value name="manager_technical" source ="manager_technical.java" package ="redo_A1_2" value ="1"/>
+         <Value name="manager_man" source ="manager_man.java" package ="redo_A1_3" value ="1"/>
+         <Value name="manager_report" source ="manager_report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="manager_weight" source ="manager_weight.java" package ="redo_A1" value ="1"/>
+         <Value name="expert_factor" source ="expert_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="project_complexity" source ="project_complexity.java" package ="redo_A1_2" value ="0"/>
+         <Value name="tech_factor" source ="tech_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="total_efactor" source ="total_efactor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="total_tfactor" source ="total_tfactor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="man_hours" source ="man_hours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="report" source ="report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="total_mhours" source ="total_mhours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="total_report" source ="total_report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="Main" source ="Main.java" package ="redo_A1" value ="0"/>
+         <Value name="actor_usecase" source ="actor_usecase.java" package ="redo_A1" value ="0"/>
+         <Value name="project_size" source ="project_size.java" package ="redo_A1" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSF" description ="Number of Static Attributes">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="expert_factor" source ="expert_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="manager_expert" source ="manager_expert.java" package ="redo_A1_2" value ="0"/>
+         <Value name="manager_technical" source ="manager_technical.java" package ="redo_A1_2" value ="0"/>
+         <Value name="project_complexity" source ="project_complexity.java" package ="redo_A1_2" value ="0"/>
+         <Value name="tech_factor" source ="tech_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="total_efactor" source ="total_efactor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="total_tfactor" source ="total_tfactor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="man_hours" source ="man_hours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="manager_man" source ="manager_man.java" package ="redo_A1_3" value ="0"/>
+         <Value name="manager_report" source ="manager_report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="report" source ="report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="total_mhours" source ="total_mhours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="total_report" source ="total_report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="Main" source ="Main.java" package ="redo_A1" value ="0"/>
+         <Value name="actor_usecase" source ="actor_usecase.java" package ="redo_A1" value ="0"/>
+         <Value name="manager_weight" source ="manager_weight.java" package ="redo_A1" value ="0"/>
+         <Value name="project_size" source ="project_size.java" package ="redo_A1" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOM" description ="Number of Methods">
+      <Values per = "type" total = "20" avg = "1.25" stddev = "0.559" max = "2">
+         <Value name="manager_expert" source ="manager_expert.java" package ="redo_A1_2" value ="2"/>
+         <Value name="manager_technical" source ="manager_technical.java" package ="redo_A1_2" value ="2"/>
+         <Value name="manager_man" source ="manager_man.java" package ="redo_A1_3" value ="2"/>
+         <Value name="manager_report" source ="manager_report.java" package ="redo_A1_3" value ="2"/>
+         <Value name="manager_weight" source ="manager_weight.java" package ="redo_A1" value ="2"/>
+         <Value name="expert_factor" source ="expert_factor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="tech_factor" source ="tech_factor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="total_efactor" source ="total_efactor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="total_tfactor" source ="total_tfactor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="man_hours" source ="man_hours.java" package ="redo_A1_3" value ="1"/>
+         <Value name="report" source ="report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="total_mhours" source ="total_mhours.java" package ="redo_A1_3" value ="1"/>
+         <Value name="total_report" source ="total_report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="actor_usecase" source ="actor_usecase.java" package ="redo_A1" value ="1"/>
+         <Value name="project_size" source ="project_size.java" package ="redo_A1" value ="1"/>
+         <Value name="project_complexity" source ="project_complexity.java" package ="redo_A1_2" value ="0"/>
+         <Value name="Main" source ="Main.java" package ="redo_A1" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSM" description ="Number of Static Methods">
+      <Values per = "type" total = "1" avg = "0.062" stddev = "0.242" max = "1">
+         <Value name="Main" source ="Main.java" package ="redo_A1" value ="1"/>
+         <Value name="expert_factor" source ="expert_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="manager_expert" source ="manager_expert.java" package ="redo_A1_2" value ="0"/>
+         <Value name="manager_technical" source ="manager_technical.java" package ="redo_A1_2" value ="0"/>
+         <Value name="project_complexity" source ="project_complexity.java" package ="redo_A1_2" value ="0"/>
+         <Value name="tech_factor" source ="tech_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="total_efactor" source ="total_efactor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="total_tfactor" source ="total_tfactor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="man_hours" source ="man_hours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="manager_man" source ="manager_man.java" package ="redo_A1_3" value ="0"/>
+         <Value name="manager_report" source ="manager_report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="report" source ="report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="total_mhours" source ="total_mhours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="total_report" source ="total_report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="actor_usecase" source ="actor_usecase.java" package ="redo_A1" value ="0"/>
+         <Value name="manager_weight" source ="manager_weight.java" package ="redo_A1" value ="0"/>
+         <Value name="project_size" source ="project_size.java" package ="redo_A1" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "SIX" description ="Specialization Index">
+      <Values per = "type" avg = "0" stddev = "0" max = "0">
+         <Value name="expert_factor" source ="expert_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="manager_expert" source ="manager_expert.java" package ="redo_A1_2" value ="0"/>
+         <Value name="manager_technical" source ="manager_technical.java" package ="redo_A1_2" value ="0"/>
+         <Value name="project_complexity" source ="project_complexity.java" package ="redo_A1_2" value ="0"/>
+         <Value name="tech_factor" source ="tech_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="total_efactor" source ="total_efactor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="total_tfactor" source ="total_tfactor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="man_hours" source ="man_hours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="manager_man" source ="manager_man.java" package ="redo_A1_3" value ="0"/>
+         <Value name="manager_report" source ="manager_report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="report" source ="report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="total_mhours" source ="total_mhours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="total_report" source ="total_report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="Main" source ="Main.java" package ="redo_A1" value ="0"/>
+         <Value name="actor_usecase" source ="actor_usecase.java" package ="redo_A1" value ="0"/>
+         <Value name="manager_weight" source ="manager_weight.java" package ="redo_A1" value ="0"/>
+         <Value name="project_size" source ="project_size.java" package ="redo_A1" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOC" description ="Number of Classes">
+      <Values per = "packageFragment" total = "16" avg = "5.333" stddev = "0.943" max = "6">
+         <Value name="redo_A1_2" package ="redo_A1_2" value ="6"/>
+         <Value name="redo_A1_3" package ="redo_A1_3" value ="6"/>
+         <Value name="redo_A1" package ="redo_A1" value ="4"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOI" description ="Number of Interfaces">
+      <Values per = "packageFragment" total = "5" avg = "1.667" stddev = "0.471" max = "2">
+         <Value name="redo_A1_2" package ="redo_A1_2" value ="2"/>
+         <Value name="redo_A1_3" package ="redo_A1_3" value ="2"/>
+         <Value name="redo_A1" package ="redo_A1" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOP" description ="Number of Packages">
+      <Value value="3"/>
+   </Metric>
+   <Metric id = "TLOC" description ="Total Lines of Code">
+      <Value value="176"/>
+   </Metric>
+   <Metric id = "MLOC" description ="Method Lines of Code">
+      <Values per = "method" total = "63" avg = "3" stddev = "10.071" max = "48">
+         <Value name="main" source ="Main.java" package ="redo_A1" value ="48"/>
+         <Value name="operation" source ="manager_expert.java" package ="redo_A1_2" value ="1"/>
+         <Value name="setStrategy" source ="manager_expert.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="manager_technical.java" package ="redo_A1_2" value ="1"/>
+         <Value name="setStrategy" source ="manager_technical.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="total_efactor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="total_tfactor.java" package ="redo_A1_2" value ="1"/>
+         <Value name="operation" source ="manager_man.java" package ="redo_A1_3" value ="1"/>
+         <Value name="setStrategy" source ="manager_man.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="manager_report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="setStrategy" source ="manager_report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="total_mhours.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="total_report.java" package ="redo_A1_3" value ="1"/>
+         <Value name="operation" source ="manager_weight.java" package ="redo_A1" value ="1"/>
+         <Value name="setStrategy" source ="manager_weight.java" package ="redo_A1" value ="1"/>
+         <Value name="operation" source ="project_size.java" package ="redo_A1" value ="1"/>
+         <Value name="operation" source ="expert_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="operation" source ="tech_factor.java" package ="redo_A1_2" value ="0"/>
+         <Value name="operation" source ="man_hours.java" package ="redo_A1_3" value ="0"/>
+         <Value name="operation" source ="report.java" package ="redo_A1_3" value ="0"/>
+         <Value name="operation" source ="actor_usecase.java" package ="redo_A1" value ="0"/>
+      </Values>
+   </Metric>
+   </Metrics>
